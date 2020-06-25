@@ -17,7 +17,8 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String home(Locale locale, Model model) {
-		
+		System.out.println("Hello Github!!");
+		System.out.println("Kim Yu Chan");
 		return "home";
 	}
 	
