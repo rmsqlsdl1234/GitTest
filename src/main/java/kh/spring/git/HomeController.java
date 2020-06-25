@@ -22,4 +22,10 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping("/KYJ")
+	public String KYJ() {
+		System.out.println("hungry");
+		return "home";
+	}
+	
 }
